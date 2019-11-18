@@ -48,8 +48,15 @@ li a:hover {
 	font-style: "Courier New", "Courier", monospace, serif; 
 	color: #013220; 
 	background-color: #FFFACD;
+	display: inline-block;
 	}
 .col-2 {
 	width:30%; 
 	background-color: #FFFACD;
+	display: inline-block;
 	}
+.review {
+	width: 19%;
+	display: inline-block;
+
+}
