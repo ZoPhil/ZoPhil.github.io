@@ -2,7 +2,9 @@
 	font-size:300%; 
 	font-family: "Courier New", monospace, serif; 
 	font-weight: bold; 
-	background-color: #FFFACD;}
+	background-color: #FFFACD;
+	text-align: center;
+}
 		
 .maintext {
 	font-size: 30px; 
@@ -81,4 +83,13 @@ li a:hover {
 	font-family: "Courier New", monospace, serif;
 	text-align: center;
 	font-weight: bold;
+}
+#review1 {
+	font-family: 'Caveat Brush', cursive; font-size: 20px;
+}
+#review2 {
+	font-family: 'Ma Shan Zheng', cursive; font-size: 20px;
+}
+#review3 {
+	font-family: 'Covered By Your Grace', cursive; font-size: 20px;
 }

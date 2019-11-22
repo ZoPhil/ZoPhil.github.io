@@ -20,15 +20,18 @@
   </head>
   <body style="background-color: #FFFACD">
 
-    <header align= "center">
+    <div class="containter-fluid">
+        <header align= "center">
     	<img width= "100%" height="100px" src="coffeebeans.jpg">
     	<br>
-    	<h1 style="text-align: center" class="header" >Your Own Little Corner Coffee Shop</h1> <br>
+    	<h1  class="header" >Your Own Little Corner Coffee Shop</h1> <br>
 		<img  width="100%" height="100px" src="coffeebeans.jpg"> 
 		<br>
     </header>
+    </div>
 
-    <nav>
+    <div class="containter-fluid">
+    <nav class="sticky-top">
     	<ul>
 			<li> <a href="">Menu</a></li>
 			<li> <a href="">History</a></li>
@@ -38,70 +41,79 @@
 			<li> <a href="">Reviews</a></li>
 		</ul>
     </nav>
+    </div>
 
     <br style="background-color: #FFFACD">
 
     <!--main body of text -->
 
-    <div class="row ">
-    	<div class="col-lg-4 col-md-4 col-sm-12">
-    		<img src="dungonNight.jpg">
-    	</div>
-    	<div class="col-lg-8 col-md-8 col-sm-12 ">
-    		<p class="titleText">
-    			Beginner D&D Guild<br>
-    			February 27th
-    		</p>
+    <div class="container-fluid no-padding">
+        <div class="row maintext">
+    	   <div class="col-lg-6 col-md-6 col-sm-12">
+    		      <p>Want to get out of the house or the office but don't really want to interact with people? Welcome to the coffee shop for the introvert!</p>
+
+			     <p>This cozy little spot is perfect for enjoying a nice cup of coffee or tea within our own little nature covered haven.</p>
+    	   </div>
+    	   <div class="col-lg-6 col-md-6 col-sm-12">
+    		  <img class=" img-fluid rounded mx-auto d-block" src="forest.jpg">
+    	   </div>
+        </div>
+    </div>
+
+    <!-- reviews -->
+
+    <div class="containter-fluid">
+    <div class="row">
+    	<div class="col-lg-4 col-md-4 col-sm border border-dark borderReview m-10 p-3">
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="far fa-star"></i>
     		<br>
-    		<p class="caltext">
-    			Have you ever wanted to go on an adventure more personally than a book or screen? Take part in this adventure by learning how to make a character and take part in a new one shot every week!
+    		<p id="review3">
+    			Super warm! I love sitting here in winter to pretend that it doesn't get dark at 4PM! <br>-Casey M.
+    		</p>
+    	</div>
+    	<div class="col-lg-4 col-md-4 col-sm border border-dark borderReview m-10 p-3">
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star-half-alt"></i>
+    		<i class="far fa-star"></i>
+		<br>
+		<p id="review1">
+			It always amazes me how even during peak hours you don't feel trapped by people. <br>-Mathew M.
+		</p>
+    	</div>
+    	<div class="col-lg-4 col-md-4 col-sm border border-dark borderReview m-10 p-3">
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<i class="fas fa-star"></i>
+    		<br>
+    		<p id="review2">
+    			So many selections of tea! It smells like heaven. I promise that there will be something that will match your tastes. <br>-Caleb W.
     		</p>
     	</div>
     </div>
-    <div class="row ">
-    	<div class="col-lg-4 col-md-4 col-sm-12">
-    		<img class="img-fluid w-100" src="knitting.jpg">
-    	</div>
-    	<div class="col-lg-8 col-md-8 col-sm-12 ">
-    		<p class="titleText">
-    			Knitting Lessons<br>
-    			March 4th
-    		</p>
-    		<br>
-    		<p class="caltext">
-    			Join beloved community knitter Rosemary Heckol to learn how to knit a hat and a pair of socks! Bring your own yarn and needles and we'll bring the knowledge.
-    		</p>
-    	</div>
-    </div>
-    <div class="row ">
-    	<div class="col-lg-4 col-md-4 col-sm-12">
-    		<img  src="books.jpg">
-    	</div>    	
-    	<div class="col-lg-8 col-md-8 col-sm-12 maintext">
-    		<p class="titleText">
-    			Book Exchange<br>
-    			March 10th
-    		</p>
-    		<br>
-    		<p class="caltext">
-    			Bring a book you've loved and pick up a new friend. Feel free to hang out and discuss the available books or just drop by for your exchange.
-    		</p>
-    	</div>
     </div>
 
     <!-- footer -->
 
-	<div class="row">
+	<div class="containter-fluid">
+    <div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-12">
     		<a href="https://www.google.com/maps/place/Nothing,+AZ+85360,+USA/@34.4800328,-113.3446812,15z/data=!3m1!4b1!4m5!3m4!1s0x80d2f79d6df2a0d7:0x3a207c1735cf3190!8m2!3d34.4800155!4d-113.3359265" target="_blank">
-    			<img class=" img-fluid w-100 rounded mx-auto d-block" src="map.png">
+    			<img class=" img-fluid rounded mx-auto d-block" src="map.png">
     		</a>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-12 footerText">
 			<p>
 				<br>
 				Hours:<br>
-				Monday - Friday: 7AM - 8PM<br>
+				Monday-Friday: 7AM - 8PM<br>
 				Saturday: 5AM - 9PM<br>
 				Sunday: 10AM - 4PM<br>
 				<br>
@@ -113,6 +125,7 @@
 		</div>
 	
 	</div>
+    </div>
 
    
 

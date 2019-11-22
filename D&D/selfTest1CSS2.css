@@ -1,0 +1,27 @@
+.header {
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	}
+.maintext {
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	text-align: left;
+	
+}
+.choices {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+.bottomtext {
+	text-align: center;
+	font-size: 11px;
+}
+.navText {
+	font-family: 'Shadows Into Light', cursive;
+	color: #000000;
+	word-spacing: 10px;
+}
