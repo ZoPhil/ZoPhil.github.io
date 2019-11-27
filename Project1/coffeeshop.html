@@ -47,10 +47,10 @@
 
     <div class="containter-fluid">
         <header align= "center">
-    	<img width= "100%" height="100px" src="https://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_100,w_1366/v1574688506/BerlinWebDev/Project1/coffeebeans_w3vcss.jpg">
+    	<img class="lazy" width= "100%" height="100px" data-src="https://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_100,w_1366/v1574688506/BerlinWebDev/Project1/coffeebeans_w3vcss.jpg">
     	<br>
     	<h1  class="header" >Your Own Little Corner Coffee Shop</h1> <br>
-		<img  width="100%" height="100px" src="https://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_100,w_1366/v1574688506/BerlinWebDev/Project1/coffeebeans_w3vcss.jpg"> 
+		<img class="lazy" width="100%" height="100px" data-src="https://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_100,w_1366/v1574688506/BerlinWebDev/Project1/coffeebeans_w3vcss.jpg"> 
 		<br>
     </header>
     </div>
@@ -79,7 +79,7 @@
 			     <p>This cozy little spot is perfect for enjoying a nice cup of coffee or tea within our own little nature covered haven.</p>
     	   </div>
     	   <div class="col-lg-6 col-md-6 col-sm-12">
-    		  <img class=" img-fluid rounded mx-auto d-block" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1574688506/BerlinWebDev/Project1/forest_tyopmb.webp">
+    		  <img class=" img-fluid rounded mx-auto d-block lazy" data-src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1574688506/BerlinWebDev/Project1/forest_tyopmb.webp">
     	   </div>
         </div>
     </div>
@@ -130,7 +130,7 @@
     <div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-12">
     		<a href="https://www.google.com/maps/place/Nothing,+AZ+85360,+USA/@34.4800328,-113.3446812,15z/data=!3m1!4b1!4m5!3m4!1s0x80d2f79d6df2a0d7:0x3a207c1735cf3190!8m2!3d34.4800155!4d-113.3359265" target="_blank">
-    			<img class=" img-fluid rounded mx-auto d-block" src="https://res.cloudinary.com/dxtnfax9u/image/upload/q_auto:low/v1574688506/BerlinWebDev/Project1/map_bfphqp.png">
+    			<img class=" img-fluid rounded mx-auto d-block lazy" data-src="https://res.cloudinary.com/dxtnfax9u/image/upload/q_auto:low/v1574688506/BerlinWebDev/Project1/map_bfphqp.png">
     		</a>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-12 footerText">
@@ -158,5 +158,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--lazyload-->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js">
+        
+    </script>
+    <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+         // ... more custom settings?
+        });
+    </script>
+ 
+
   </body>
 </html>
