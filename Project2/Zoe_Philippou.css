@@ -1,0 +1,27 @@
+.jumbotron{
+	background-image: url("https://res.cloudinary.com/dxtnfax9u/image/upload/v1574863260/BerlinWebDev/Project2/P1010498_-_Copy_gkhlvh.jpg");
+	background-size: cover;
+	color: #FFFFF0;
+	font-family: 'IM Fell English', serif;
+	font-size: 60px;
+
+}
+.headerText {
+	color: #FFFFF0;
+	font-family: 'Marcellus', serif;	
+	font-size: 40px;
+	text-shadow: 2px 2px 4px #000000;
+}
+.stoke {
+	color: white;
+    
+}
+.maintext {
+	 font-family: 'Coustard', serif;
+	 font-size: 18px;
+}
+.navtext{
+	font-family: 'Marcellus', serif;
+	color: #FFFFF0;
+	font-size: 18px;
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- other links and CSS -->
+    
+   
+
+
+    <title>Java Demo</title>
+
+
+
+
+
+  </head>
+  <body>
+
+
+    <h1 id="heading">
+         'ello.
+    </h1>
+
+
+    <nav class="navbar navbar-expand-sm bg-light">
+
+  <!-- Links -->
+        <ul class="navbar-nav" id="where">
+            
+        </ul>
+    </nav>
+
+   
+
+    <div class="jumbotron" id="jumbo">
+        lad
+    </div>
+
+
+
+    <div class="jumbotron" id="jumbo2">
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul id="munchtime">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+
+   
+
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            console.log("It Works.");
+            /* alert ("I am a popup.");  and this is a comment*/
+            
+            var things = "50";
+            var things2 = "5";
+
+            console.log(things);
+            console.log("the value in the things is " + things);
+            
+            /* math examples 
+            var things3 = things + things2;
+            alert(things3);
+
+            var things3 = things - things2;
+            alert(things3);
+            var things3 = things * things2;
+            alert(things3);
+            var things3 = things / things2;
+            alert(things3); */
+
+            var things3 = things + things2;
+            console.log(things3);
+
+            var things3 = things - things2;
+            console.log(things3);
+            var things3 = things * things2;
+            console.log(things3);
+            var things3 = things / things2;
+            console.log(things3); 
+
+            $("#heading").html("Learing JavaScript");
+
+            $('#jumbo').append('<h1> This is a fancy </h1> <p> a fancy, fancy </p>');
+
+
+            var title = "This is a title";
+            var subtitle = "This is a paragraph ;)";
+
+            $('#jumbo2').append('<h1>' +title+ ' </h1> <p>' + subtitle +' </p>');
+
+            var foods = ["pasta", "pizza", "Burgers", "Fries", "Toffee"];
+            console.log(foods.length);
+            console.log(foods[3]); /*will print the object in the array that is specified by the placement number*/
+
+           for (var i = 0;      i < foods.length;      i ++){
+                console.log(foods[i]);
+            }
+              // makes a loop as descriped by i and describes how you want the list to move on the the brackts is what happens when the condition is met//
+
+
+             for (var i = 0;      i < foods.length;      i ++){
+                $('#munchtime').append('<li>' + foods[i] + '</li>')
+            }
+
+
+           // for (var i = 0; i < foods.length; i++) {
+           //     $('#where').append('<li class="nav-item"><a class="nav-link" href="#">' + foods[i] + '</a></li>')
+            //}
+
+
+            /* var nav = { 
+                Title:fries 
+                url:fffff
+
+                title: gjggf
+                url:gjfhd
+                 } */
+
+            var content = {
+                "navbar": [
+                   {
+                    "title": "Home",
+                    "url": "index.html"
+                    },
+                   {
+                    "title": "About Us",
+                    "url": "about.html"
+                    },
+                    {
+                    "title": "Our Team",
+                    "url": "team.html"
+                    },
+                    {
+                    "title": "Contact Us",
+                    "url": "contact.html"
+                    }
+                ]
+            }
+
+            for (var i=0; i <content.navbar.length; i++){
+                console.log (content.navbar[i].title + '|' + content.navbar[i].url);
+                $('#where').append('<li class="nav-item"><a class="nav-link" href="' + content.navbar[i].url + '">' + content.navbar[i].title + '</a></li>');
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //  The gap between women and men in the workplace and professional fields is much more equal than it was a century ago. For example, it was exactly 100 years ago that women were offically allowed entry in the national art universities in (berlin? Germany?). Before this, women could create as much art as they wanted, but they were not allowed to participate in this professional training. To celebrate this occassion, the NAtional Gallery of Berlin has recently opened a new exhibit.       This exhibit, titled,"gggggg",  // 
+
+
+        });
+    </script>
+
+  </body>
+</html>
