@@ -1,4 +1,4 @@
-.jumbotron{
+.jumbotrontop{
 	background-image: url("https://res.cloudinary.com/dxtnfax9u/image/upload/v1574863260/BerlinWebDev/Project2/P1010498_-_Copy_gkhlvh.jpg");
 	background-size: cover;
 	color: #FFFFF0;
@@ -19,9 +19,21 @@
 .maintext {
 	 font-family: 'Coustard', serif;
 	 font-size: 18px;
+	 color: black;
 }
 .navtext{
 	font-family: 'Marcellus', serif;
 	color: #FFFFF0;
 	font-size: 18px;
+}
+.label {
+	 font-family: 'Coustard', serif;
+	 font-size: 30px;
+	 text-align: center;
+}
+.jumbotronmid{
+	background-color: #DDA0DD;
+	background-size cover;
+	font-family: 'Marcellus', serif;	
+	font-size: 40px;
 }

@@ -6,20 +6,24 @@
     var content = {
                 "navbar": [
                    {
-                    "title": "Home",
-                    "url": "Philippou_Zoe.html"
+                    "title": "Overview",
+                    "url": "#overview"
                     },
                     {
                     "title": "Professional",
-                    "url": "professional.html"
+                    "url": "#professional"
                     },
                     {
                     "title": "Writing",
-                    "url": "writing.html"
+                    "url": "#writing"
                     },
                     {
-                    "title": "Art",
-                    "url": "art.html"
+                    "title": "Hobbies",
+                    "url": "#hobbies"
+                    },
+                    {
+                    "title": "Contact",
+                    "url": "#contact"
                     },
                 ],
              }
