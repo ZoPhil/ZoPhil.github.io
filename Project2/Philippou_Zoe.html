@@ -11,7 +11,7 @@
     <!-- other links and CSS -->
     <link rel="stylesheet" type="text/css" href="Zoe_Philippou.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Coustard|IM+Fell+English|Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coustard|IM+Fell+English|Marcellus&display=swap" rel="stylesheet"> 
     <!-- font-family: 'Marcellus', serif;
         font-family: 'Coustard', serif;
         font-family: 'IM Fell English', serif; -->
@@ -26,7 +26,6 @@
 
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
     <div class="jumbotron jumbotrontop stroke my-0">
         <p>
             Zoe Philippou
@@ -36,64 +35,86 @@
         </p>        
     </div>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <ul class="navbar-nav navtext " id="where">
+    <button class="navbar-toggler btn-default d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <span class="navbar-toggler-icon"></span> <i class="fas fa-bars"></i>
+    </button>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" id="collapsibleNavbar">
+        <ul class="navbar-nav navtext ml-auto mx-auto" id="where">
             
         </ul>
     </nav>
 
     <div class="containter" id="overview">
-        <p class="label">
-            A Gettysburg College undergraduate studying the art of:
-        </p>
+        <p class="label text-center">
+                A Gettysburg College undergraduate studying the art of:
+            </p>
+            <p class="subtext">
+            (click on label for more information)
+            </p>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 px-0">
+            <div class="col-lg-4 col-md-4 col-sm-12 px-0 text-center">
                 <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575490923/BerlinWebDev/Project2/copyIMG_1468_yfvnsn.jpg" alt="Berlin Mitte skyline seen from above">
                 <br>
-                <p class="label">
-                    Anthropology
-                </p>
+                <button type="button" class="btn btn-overview label text-center" data-toggle="collapse" data-target="#anthro">Anthropology</button> 
+                <div id="anthro" class="collapse maintext text-left mx-5">
+                    <p>Anthropology is the study of culture and helps explain and understand people with experiences different from your own. </p>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 px-0">
+            <div class="col-lg-4 col-md-4 col-sm-12 px-0 text-center">
                 <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575490923/BerlinWebDev/Project2/copy_IMG_7456_w2nnfp.jpg" alt="Broken and dirty pottery sherd">
                 <br>
-                <p class="label">
-                    Archaeology
-                </p>
+                <button type="button" class="btn btn-overview label text-center" data-toggle="collapse" data-target="#arch">Archaeology</button> 
+                <div id="arch" class="collapse maintext text-left mx-5">
+                    <p> A subset of anthropology, archaeology looks at the impressions that everyone leaves on the world, even in ways that we may not expect. Archaeology is exteamly useful for piecing together stories of the past that were not preseved in books. </p> 
+                </div>
+                
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 px-0">
+            <div class="col-lg-4 col-md-4 col-sm-12 px-0 text-center">
                 <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575490922/BerlinWebDev/Project2/copyimage-6932890d27d002dc4c24701356ee7127-20191204-12414-u9mg36_esgfc1.jpg" alt="Celebration 2019 Presentation">
                 <br>
-                <p class="label">
-                    Psychology
-                </p>
+                <button type="button" class="btn btn-overview label text-center" data-toggle="collapse" data-target="#psych">Psychology</button> 
+                <div id="psych" class="collapse maintext text-left mx-5">
+                    <p>
+                        By understanding the inner workings of the mind, people not only learn how to assess other people's behaviors and thought processes but our own as well.
+                    </p> 
+                </div>
             </div>
-            <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 px-0">
-                <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575491416/BerlinWebDev/Project2/IMG_1449_zgqem9.jpg" alt="German flag flying above the Reichstag">
-                <br>
-                <p class="label">
-                    German
-                </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 px-0 text-center">
+                    <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575491416/BerlinWebDev/Project2/IMG_1449_zgqem9.jpg" alt="German flag flying above the Reichstag">
+                    <br>
+                    <button type="button" class="btn btn-overview label text-center" data-toggle="collapse" data-target="#german">German</button> 
+                <div id="german" class="collapse maintext text-left mx-5">
+                    <p>
+                        It is difficult to understand the depth of connations and knowledge intrinsic to langugae until one has been dropped into an unfamilar language. In the aftermath, you have the skill to communicate with more people and navigate situations with multiple different communication backgrounds involved.
+                    </p>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 px-0">
+            <div class="col-lg-4 col-md-4 col-sm-12 px-0 text-center">
                 <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575491416/BerlinWebDev/Project2/IMG_1866_yl7tgh.jpg" alt="Empty theater seats lit lightly from the stagr">
                 <br>
-                <p class="label">
-                    Theater
-                </p>
+                <button type="button" class="btn btn-overview label text-center" data-toggle="collapse" data-target="#theater">Theater</button> 
+                <div id="theater" class="collapse maintext text-left mx-5">
+                    <p>
+                        Theater Description
+                    </p> 
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 px-0">
-                <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575571327/BerlinWebDev/Project2/IMG_2686_ohwmnv.jpg" alt="Rubber duck in front of code">
+            <div class="col-lg-4 col-md-4 col-sm-12 px-0 text-center">
+                <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575640149/BerlinWebDev/Project2/IMG_2686_fgyby2.jpg" alt="Rubber duck in front of code">
                 <br>
-                <p class="label">
-                    Web Design
-                </p>
+                <button type="button" class="btn btn-overview label text-center" data-toggle="collapse" data-target="#web">Web Design</button> 
+                <div id="web" class="collapse maintext text-left mx-5">
+                    <p>
+                        Web Design
+                    </p> 
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="professional">
+    <div id="professional" class="lazy">
         <div>
             <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575572116/BerlinWebDev/Project2/IMG_1697_cwi7rk.jpg" alt="Top of building in from of a blue sky">
         </div>
@@ -109,36 +130,38 @@
             <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575572161/BerlinWebDev/Project2/IMG_1697_ax1xsb.jpg" alt="Continuation of buildings with rainbow flags in front">
         </div>
 
-        <div class="containter my-0 jumbotron jumbotronmid">
+        <div class="my-0 jumbotron jumbotronmid jumbotron-fluid">
+           <!-- <div class="containter-fluid"> -->
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <img class="img-fluid" src="http://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_1238/v1575573269/BerlinWebDev/Project2/IMG_7644_clum2q.jpg" alt="Three sherds of pottery fit together">
+                <div class="col-lg-3 col-md-3 col-sm-12 my-0">
+                    <img class="img-fluid my-0" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575573269/BerlinWebDev/Project2/IMG_7644_clum2q.jpg" alt="Three sherds of pottery fit together">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <p>
                         Past internships include:
                         <ul >
                             <li>
-                                <a class="_blank" href="https://totempoleplayhouse.org/">Totem Pole Playhouse</a>
+                                <a  class="linktext" target="_blank" href="https://totempoleplayhouse.org/">Totem Pole Playhouse</a>
                             </li>
                             <li>
-                                <a class="_blank" href="http://www.littleantietam.org/">Little Antietam Creek Inc.</a>
+                                <a  class="linktext" target="_blank" href="http://www.littleantietam.org/">Little Antietam Creek Inc.</a>
                             </li>
                         </ul>
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <a class="_blank" href="https://www.heraldmailmedia.com/news/local/participants-dig-for-the-past-at-saylor-house/article_69cbb0bc-8232-11e8-9a2c-bfe56719ad13.html"> 
-                         <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575573268/BerlinWebDev/Project2/IMG_7896_fsbmwq.jpg" alt="Childen looking at a recently unearthed pig jaw">
+                <div class="col-lg-3 col-md-3 col-sm-12 my-0">
+                    <a target="_blank" href="https://www.heraldmailmedia.com/news/local/participants-dig-for-the-past-at-saylor-house/article_69cbb0bc-8232-11e8-9a2c-bfe56719ad13.html"> 
+                         <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_250/v1575573268/BerlinWebDev/Project2/IMG_7896_fsbmwq.jpg" alt="Childen looking at a recently unearthed pig jaw">
                     </a>
                 </div>
-            </div>            
+            </div> 
+           <!-- </div>  -->         
         </div>
 
     </div>
 
 
-    <div id="writing">
+    <div id="writing"  class="lazy">
         <div class="jumbotron my-0">
             <div class="label">
                 <p>
@@ -151,19 +174,19 @@
                     <div class="col-lg-4 col-md-4 col-sm-12 label">
                         <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575575206/BerlinWebDev/Project2/IMG_1716_kny9fm.jpg" alt="Gettysburg College flag in front of a sunset">
                         <p>
-                            <a href="https://www.hercampus.com/author/zoe-philippou">Her Campus</a>
+                            <button type="button" class="btn btn-overview text-center"><a class="linktext" target="_blank" href="https://www.hercampus.com/author/zoe-philippou">Her Campus</a></button> 
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 label">
                         <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575575201/BerlinWebDev/Project2/2_iu94ob.png" alt="Life in Smoke poem">
                         <p>
-                            <a href="https://nightingaleandsparrow.com/nightingale-sparrow-micropoets-the-top-ten-2019/">Poetry</a>
+                            <button type="button" class="btn btn-overview text-center"><a target="_blank" class="linktext" href="https://nightingaleandsparrow.com/nightingale-sparrow-micropoets-the-top-ten-2019/">Poetry</a></button>
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 label">
-                        <img class="img-fluid" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575575200/BerlinWebDev/Project2/1_lmqipi.jpg" alt="Julia Hendon book cover">
+                        <img class="img-fluid"  src="https://res.cloudinary.com/dxtnfax9u/image/upload/c_scale,h_1008,w_1008/v1575575200/BerlinWebDev/Project2/1_lmqipi.jpg" alt="Julia Hendon book cover">
                         <p>
-                            <a href="https://www.gettysburg.edu/news/stories?id=b3c25b4f-86b4-433e-9982-07797092375e">Anthropology Department</a>
+                            <button type="button" class="btn btn-overview text-center"><a  class="linktext" target="_blank" href="https://www.gettysburg.edu/news/stories?id=b3c25b4f-86b4-433e-9982-07797092375e">Anthropology Department</a></button>
                         </p>
                     </div>
                 </div>
@@ -172,38 +195,38 @@
         </div>
     </div>
 
-    <div id="hobbies" class="jumbotron jumbotronmid my-0">
+    <div id="hobbies" class="jumbotron jumbotronmid my-0 lazy">
         <p class="label container">
             Hobbies include:
         </p>
         <div class="row">
             <div class="col-lg-1 col-md-1 col-sm-0"></div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img  src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578175/BerlinWebDev/Project2/IMG_7243_kpgjuy.jpg" class="img-fluid img-circle" alt="King Lear scene">
+                <img  src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578175/BerlinWebDev/Project2/IMG_7243_kpgjuy.jpg" class="img-fluid rounded-circle" alt="King Lear scene">
                 <p class="maintext text-center">
                     Acting
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578829/BerlinWebDev/Project2/5_zeia2t.jpg" alt="Zuko Costume">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578829/BerlinWebDev/Project2/5_zeia2t.jpg" alt="Zuko Costume">
                 <p class="maintext text-center">
                     Costuming
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578174/BerlinWebDev/Project2/composition_book_fm4b2k.jpg" alt="Decorative composition book">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578174/BerlinWebDev/Project2/composition_book_fm4b2k.jpg" alt="Decorative composition book">
                 <p class="maintext text-center">
                     Creative Writing
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575577369/BerlinWebDev/Project2/IMG_0815_z2mavy.jpg" alt="Crochet corgi">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575577369/BerlinWebDev/Project2/IMG_0815_z2mavy.jpg" alt="Crochet corgi">
                 <p class="maintext text-center">
                     Crochet
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575577238/BerlinWebDev/Project2/IMG_8372_uriouu.jpg" alt="Stature of a D&D half-elf surrounded by dice">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575577238/BerlinWebDev/Project2/IMG_8372_uriouu.jpg" alt="Stature of a D&D half-elf surrounded by dice">
                 <p class="maintext text-center">
                     Dungeons and Dragons
                 </p>
@@ -213,31 +236,31 @@
         <div class="row">
             <div class="col-lg-1 col-md-1 col-sm-0"></div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578174/BerlinWebDev/Project2/damian_violin_qok75o.jpg" alt="drawing of a boy playing the violin">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578174/BerlinWebDev/Project2/damian_violin_qok75o.jpg" alt="drawing of a boy playing the violin">
                 <p class="maintext text-center">
                     Drawing
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578986/BerlinWebDev/Project2/IMG_9062_wembg9.jpg" alt="embroidered skull surounded by flowers">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578986/BerlinWebDev/Project2/IMG_9062_wembg9.jpg" alt="embroidered skull surounded by flowers">
                 <p class="maintext text-center">
                     Embroidery
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575579006/BerlinWebDev/Project2/IMG_2689_leccqs.jpg" alt="one fencer scoring on the other's chest">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575579006/BerlinWebDev/Project2/IMG_2689_leccqs.jpg" alt="one fencer scoring on the other's chest">
                 <p class="maintext text-center">
                    Fencing
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <a href="https://nightingaleandsparrow.com/zoe-philippou/"><img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575577882/BerlinWebDev/Project2/4_mc4omn.jpg" alt="Close up of embers and buring logs"></a>
+                <a target="_blank" href="https://nightingaleandsparrow.com/zoe-philippou/"><img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575577882/BerlinWebDev/Project2/4_mc4omn.jpg" alt="Close up of embers and buring logs"></a>
                 <p class="maintext text-center">
                    Photography
                 </p>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-6">
-                <img class="img-fluid img-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578992/BerlinWebDev/Project2/IMG_0490_qylohk.jpg" alt="Blue quilt spares surrounded by yellow and gray triangles">
+                <img class="img-fluid rounded-circle" src="https://res.cloudinary.com/dxtnfax9u/image/upload/v1575578992/BerlinWebDev/Project2/IMG_0490_qylohk.jpg" alt="Blue quilt spares surrounded by yellow and gray triangles">
                 <p class="maintext text-center">
                     Quilting
                 </p>
@@ -248,14 +271,14 @@
     </div>
 
 
-    <div id="contact" class="jumbotron label my-0">
+    <div id="contact" class="jumbotron label my-0 lazy">
         <p>
             Looking to get in contact with me?
             <br>
             Check out my LinkedIn:
         </p>
         <br>
-        <a href="https://www.linkedin.com/in/zoe-philippou-bb5038152/"><i class="fab fa-linkedin"></i></a>        
+        <a target="_blank" href="https://www.linkedin.com/in/zoe-philippou-bb5038152/"><i class="fab fa-linkedin"></i></a>        
     </div>
 
 
@@ -273,5 +296,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="Personal.js"></script>
+
+    <!--lazyload-->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js">
+        
+    </script>
+    <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+         // ... more custom settings?
+        });
+    </script>
   </body>
 </html>

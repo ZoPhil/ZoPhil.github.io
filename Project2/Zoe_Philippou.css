@@ -37,3 +37,17 @@
 	font-family: 'Marcellus', serif;	
 	font-size: 40px;
 }
+.btn-overview{
+	background-color: #DDA0DD;
+}
+.subtext{
+	 font-family: 'Coustard', serif;
+	 font-size: 15px;
+	 text-align: center;
+}
+.linktext {
+	 font-family: 'Coustard', serif;
+	 font-size: 30px;
+	 text-align: center;
+	 color: #000000;
+}
