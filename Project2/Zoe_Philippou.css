@@ -32,13 +32,13 @@
 	 text-align: center;
 }
 .jumbotronmid{
-	background-color: #DDA0DD;
+	background-color: #c179b9;
 	background-size cover;
 	font-family: 'Marcellus', serif;	
 	font-size: 40px;
 }
 .btn-overview{
-	background-color: #DDA0DD;
+	background-color: #c179b9;
 }
 .subtext{
 	 font-family: 'Coustard', serif;
@@ -50,4 +50,10 @@
 	 font-size: 30px;
 	 text-align: center;
 	 color: #000000;
+}
+.jumbotronmid2{
+	background-color: #e5e5e5;
+	background-size cover;
+	font-family: 'Marcellus', serif;	
+	font-size: 40px;
 }
